@@ -6,7 +6,7 @@ Grabar la voz usando comandos de la terminal
 
 main(){
   printf("Por favor diga su nombre\nTiene 5 segundos\n");
-  system("arecord -d 5 test.wav");
+  system("arecord -d 5 -c 2 Camilo.wav");
   return 0;
 }
 
